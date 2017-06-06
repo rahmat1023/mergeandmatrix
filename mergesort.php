@@ -76,7 +76,7 @@ function merge($left, $right)
 </h1>
 
 <div id="back">
-    <a href="home.php">Kembali</a>
+    <a href="index.php">Kembali</a>
 </div>
 
 
