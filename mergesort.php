@@ -8,9 +8,9 @@
 
 <?php
 $n=$_GET['n'];
-$arr = array();
+$my_array = array();
 for ($i=0; $i<$n; $i++){
-    $arr[$i]=rand(1,100);
+    $my_array[$i]=rand(1,100);
 }
  
 function mergesort($my_array)
@@ -62,9 +62,9 @@ function merge($left, $right)
 }
 
 output
-echo implode(' , ',$arr)."<br>";
-$arr=mergesort($arr);
-echo implode(' , ',$arr);
+echo implode(' , ',$my_array)."<br>";
+$my_array=mergesort($my_array);
+echo implode(' , ',$my_array);
 
 
 
