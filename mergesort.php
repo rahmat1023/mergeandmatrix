@@ -13,13 +13,13 @@ for ($i=0; $i<$n; $i++){
     $arr[$i]=rand(1,100);
 }
  
-function mergesort($numlist)
+function mergesort($my_array)
 {
-    if(count($numlist) == 1 ) return $numlist;
+    if(count($my_array) == 1 ) return $my_array;
  
-    $mid = count($numlist) / 2;
-    $left = array_slice($numlist, 0, $mid);
-    $right = array_slice($numlist, $mid);
+    $mid = count($my_array) / 2;
+    $left = array_slice($my_array, 0, $mid);
+    $right = array_slice($my_array, $mid);
  
     $left = mergesort($left);
     $right = mergesort($right);
