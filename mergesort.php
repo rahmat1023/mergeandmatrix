@@ -61,7 +61,7 @@ function merge($left, $right)
 
 }
 
-output
+
 echo implode(' , ',$my_array)."<br>";
 $my_array=mergesort($my_array);
 echo implode(' , ',$my_array);
@@ -76,7 +76,7 @@ echo implode(' , ',$my_array);
 </h1>
 
 <div id="back">
-    <a href="index.php">Kembali</a>
+    <a href="home.php">Kembali</a>
 </div>
 
 
