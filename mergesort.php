@@ -61,10 +61,10 @@ function merge($left, $right)
 
 }
 
-//output
-// echo implode(' , ',$arr)."<br>";
-// $arr=mergesort($arr);
-// echo implode(' , ',$arr);
+output
+echo implode(' , ',$arr)."<br>";
+$arr=mergesort($arr);
+echo implode(' , ',$arr);
 
 
 
