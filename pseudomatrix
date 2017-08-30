@@ -1,0 +1,9 @@
+function matrixmultipication (matriks_a, matriks_b)
+  var hasil as array
+    for int i from 0 to sizeof(matriks_a)
+      for int j from 0 to sizeof(matriks_b[0])
+      int temp = 0
+      for int k from 0 to sizeof(matriks_b)
+        temp = matriks_a[i][k] * matriks_b[k][j]
+      hasil [i][j] = temp
+   return hasil
