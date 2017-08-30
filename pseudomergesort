@@ -1,0 +1,11 @@
+function mergesort( var a as array)
+  if n == 1 ) return a
+  
+  var left as array = a[0] ... a[n/2]
+  var right as array = a[n/2+1] ... a[n]
+
+  left = mergesort(left)
+  right = mergesort(right)
+     
+  return merge(left, right)
+end function
